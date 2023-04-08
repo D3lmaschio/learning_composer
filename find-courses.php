@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 require 'vendor/autoload.php';
@@ -8,7 +9,7 @@ Helper::help_2();
 method_1();
 method_2();
 
-use Alura\CourseFinder\Finder;
+use D3lmaschio\CourseFinder\Finder;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 

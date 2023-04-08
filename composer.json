@@ -1,11 +1,11 @@
 {
-    "name": "matheusrdb/app",
-    "description": "Um app",
+    "name": "d3lmaschio/course-finder",
+    "description": "Class Finder",
     "type": "library",
     "authors": [
         {
-            "name": "matheusrdb",
-            "email": "matheusrb8@outlook.com.br"
+            "name": "D3lmaschio",
+            "email": "matheus.rubens.ti@gmail.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Alura\\CourseFinder\\": "src/"
+            "D3lmaschio\\CourseFinder\\": "src/"
         },
         "classmap": [
             "./Helper.php"
@@ -44,5 +44,7 @@
     },
     "scripts-descriptions": {
         "check": "Roda as verificações CS, CBF e PHAN e caso todas passem então TEST é executado."
-    }
+    },
+    "licence": "GPL-3.0",
+    "bin": ["find-courses.php"]
 }

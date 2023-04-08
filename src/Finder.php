@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\CourseFinder;
+namespace D3lmaschio\CourseFinder;
 
 use GuzzleHttp\ClientInterface;
 use Symfony\Component\DomCrawler\Crawler;

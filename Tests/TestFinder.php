@@ -1,8 +1,8 @@
 <?php
 
-namespace Alura\CourseFinder\Tests;
+namespace D3lmaschio\CourseFinder\Tests;
 
-use Alura\CourseFinder\Finder;
+use D3lmaschio\CourseFinder\Finder;
 use GuzzleHttp\ClientInterface;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
